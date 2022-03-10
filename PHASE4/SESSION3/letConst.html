@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let x=10;
+      function dispaly()
+{
+    let x=34;
+    console.log("In block "+x);
+}
+display();
+console.log("outer side block "+x)
+
+const y = 10;
+function displayConst() {
+    const y = 34;
+    console.log("outer side block " + y)
+}
+displayconst();
+console.log("outer side block " +y)
+
+    
+</script>
+</body>
+</head>
